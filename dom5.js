@@ -71,7 +71,7 @@ var h1 = document.querySelector('header h1');
 console.log(newDiv);
 container.insertBefore(newDiv, h1);
 
-
+// add element before item 1
 var item1Span = document.createElement('span');
 
 var item1Text = document.createTextNode('Hello World');
